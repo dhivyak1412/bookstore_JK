@@ -29,6 +29,7 @@ jobs:
           pip install -r bookstore/requirements.txt
           pip install pytest
           pip install pytest-asyncio
+          pip install pytest-cov
       - name: Lint with Ruff  
         run:  
           pip install ruff  
